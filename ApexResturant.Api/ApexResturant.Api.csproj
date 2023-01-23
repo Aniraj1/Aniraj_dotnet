@@ -14,6 +14,8 @@
   <ItemGroup>
     <ProjectReference Include="..\ApexResturant.services\ApexResturant.services.csproj" />
     <ProjectReference Include="..\ApexResturant.Repository\ApexResturant.Repository.csproj" />
+    <ProjectReference Include="..\ApexResturant.Services\ApexResturant.Services.csproj" />
+    <ProjectReference Include="..\ApexResturant.Repository\ApexResturant.Repository.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotnetCourse\\ApexResturant\\ApexResturant.services\\ApexResturant.services.csproj": {}
+    "D:\\dotnetCourse\\ApexResturant\\ApexResturant.Services\\ApexResturant.Services.csproj": {}
   },
   "projects": {
     "D:\\dotnetCourse\\ApexResturant\\ApexResturant.Repository\\ApexResturant.Repository.csproj": {
@@ -37,6 +37,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,14 +67,14 @@
         }
       }
     },
-    "D:\\dotnetCourse\\ApexResturant\\ApexResturant.services\\ApexResturant.services.csproj": {
+    "D:\\dotnetCourse\\ApexResturant\\ApexResturant.Services\\ApexResturant.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnetCourse\\ApexResturant\\ApexResturant.services\\ApexResturant.services.csproj",
-        "projectName": "ApexResturant.services",
-        "projectPath": "D:\\dotnetCourse\\ApexResturant\\ApexResturant.services\\ApexResturant.services.csproj",
+        "projectUniqueName": "D:\\dotnetCourse\\ApexResturant\\ApexResturant.Services\\ApexResturant.Services.csproj",
+        "projectName": "ApexResturant.Services",
+        "projectPath": "D:\\dotnetCourse\\ApexResturant\\ApexResturant.Services\\ApexResturant.Services.csproj",
         "packagesPath": "C:\\Users\\Aniraj\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnetCourse\\ApexResturant\\ApexResturant.services\\obj\\",
+        "outputPath": "D:\\dotnetCourse\\ApexResturant\\ApexResturant.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aniraj\\AppData\\Roaming\\NuGet\\NuGet.Config"
