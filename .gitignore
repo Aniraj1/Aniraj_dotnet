@@ -131,3 +131,9 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+
+.cache
+ApexResturant.Mvc/obj/Debug/net7.0/ApexResturant.Mvc.GeneratedMSBuildEditorConfig.editorconfig
+ApexResturant.services/obj/Debug/net7.0/ApexResturant.services.assets.cache
+ApexResturant.Api/obj/Debug/net7.0/ApexResturant.Api.assets.cache
+ApexResturant.Mvc/obj/Debug/net7.0/ApexResturant.Mvc.assets.cache
